@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estacionamento</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="name"
+      placeholder="Digite o seu nome"
+      autocapitalize="off"
+    />
+    <input
+      type="tel"
+      id="telefone"
+      placeholder="Digite o seu telefone"
+      autocapitalize="off"
+    />
+    <input
+      type="text"
+      id="placa"
+      placeholder="Digite o seu placa"
+      autocapitalize="off"
+    />
+    <button id="bnt-cadastra" onclick="criarPessoa()">Cadastra</button>
+
+    <br />
+    <br />
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Placa</th>
+          <th>Hora da entrada</th>
+          <th>Numero da vaga</th>
+        </tr>
+      </thead>
+      <tbody id="table-dados"></tbody>
+    </table>
+    <script> var exports = {}; </script>
+    <script src="../../build/index.js"></script>
+  </body>
+</html>
